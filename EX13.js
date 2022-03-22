@@ -1,0 +1,5 @@
+const read = require("readline-sync")
+    var idade = parseInt(read.question("Me fale o ano que voce nasceu que direi sua idade: "))
+        console.log(idade)
+    var calcIdade = parseInt (idade - 2022)
+        console.log(`Você nasceu em ${idade} e você tem / completará neste ano ${calcIdade} anos!`)
